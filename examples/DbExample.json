@@ -1,0 +1,12 @@
+{
+  "tasks": [
+    {
+      "id": "a43b5",
+      "title": "Beispielhaftes TaskList Element",
+      "description": "Beschreibung zum beispielhaften TaskList Element",
+      "createdAt": "2024-02-05T10:20:25.948Z",
+      "dueDate": "2024-02-07T10:20:25.948Z",
+      "doneAt": "2024-02-06T10:20:25.948Z"
+    }
+  ]
+}
