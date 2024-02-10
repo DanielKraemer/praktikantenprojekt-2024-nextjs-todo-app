@@ -36,15 +36,15 @@ const shimmer = `relative overflow-hidden before:absolute before:inset-0 before:
 
 function Skeleton() {
   return <div className={`block w-full bg-gray-950 border border-transparent rounded my-4 ${shimmer}`}>
-  <div className="my-2 p-6"></div>
-</div>
+    <div className="my-2 p-6"></div>
+  </div>
 }
 
 export function TaskSkeleton() {
   return <>
-  <div className="space-y-8">
-    <Skeleton />
-    <Skeleton />
-  </div>
-</>
+    <div className="space-y-8">
+      <Skeleton />
+      <Skeleton />
+    </div>
+  </>
 }
